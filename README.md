@@ -8,6 +8,7 @@ $ cd ~
 $ ln -s ~/p/allthedotfiles/dotfiles/vim/vimrc .vimrc
 $ ln -s ~/p/allthedotfiles/dotfiles/rc/tmux.conf .tmux.conf
 $ ln -s ~/p/allthedotfiles/dotfiles/vim .vim
+$ ln -s ~/p/allthedotfiles/dotfiles/gvimrc .gvimrc
 
 #update vim bundles
 $ ruby ~/.vim/update_bundles
@@ -20,6 +21,11 @@ map <leader>a :Ag!<space>
 
 #start a new session
 $ tmux new -s resque
+
+
+TODO: how do I make the cursor look different in insert mode
+
+TODO: can I have auto-save in vim?
 
 dotfiles
 ========
